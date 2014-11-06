@@ -1,0 +1,6 @@
+// более подробная справка https://github.com/vaeum/sprite.scss
+@import "compass/utilities/sprites";
+ 
+$sprite-sprite-dimensions: true;
+ 
+@import "sprite/*.png";

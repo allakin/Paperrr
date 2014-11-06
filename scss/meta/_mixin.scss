@@ -1,0 +1,11 @@
+//блоки которым нужен clearfix добавляем в _clearfix.scss
+@mixin clearfix() {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
