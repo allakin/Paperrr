@@ -1,0 +1,132 @@
+body {
+  background: url("../img/bg-patern.png") #ebddc1;
+}
+
+.container {
+  width: 960px;
+}
+
+header {
+  background: url("../img/bg-header.png") no-repeat top center;
+  width: 100%;
+  height: 153px;
+}
+
+.col-xs-6 {
+  padding: 0px;
+}
+
+.forms {
+  position: relative;
+}
+
+.logo-link a {
+  width: 237px;
+  height: 93px;
+  margin-top: 11px;
+  display: block;
+}
+
+input {
+  width: 189px;
+  height: 27px;
+  margin-bottom: 10px;
+  background: #fff;
+  border: 0px;
+  color: #000;
+  font-family: sans-serif;
+  margin-top: 45px;
+  margin-left: 283px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+button {
+  background: rgba(194, 170, 124, 0.8);
+  border: 0px;
+  -moz-border-radius: 0px 4px 4px 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px 4px 4px 0px;
+  height: 29px;
+  width: 32px;
+  position: absolute;
+  margin-top: 44px;
+  margin-left: -32px;
+}
+button:hover .icon-find {
+  background-position: 0 -16px;
+}
+button .icon-find {
+  background: url("../img/sprite/sp-icon-find.png") no-repeat top center;
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
+.menu-wrapp {
+  margin-left: 0px;
+  padding: 0px;
+}
+
+li {
+  float: left;
+  list-style-type: none;
+  margin-right: 30px;
+  left: 0px;
+  margin-top: 7px;
+}
+li:last-child {
+  margin-right: 0px;
+}
+li a {
+  font-size: 24px;
+  font-family: "Cabin Sketch", cursive;
+  color: #000;
+}
+li a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-wrapp {
+  padding: 0px;
+  margin-left: 80px;
+}
+
+.net-social {
+  margin-right: 6px;
+}
+.net-social:last-child {
+  margin-right: 0;
+}
+.net-social .mail,
+.net-social .rss,
+.net-social .fb,
+.net-social .tw {
+  background: url("../img/sprite/sp-social-networks.png") no-repeat;
+  width: 28px;
+  height: 27px;
+  display: block;
+}
+.net-social .mail:hover {
+  background-position: 0 -27px;
+}
+.net-social .rss {
+  background-position: -27px 0;
+}
+.net-social .rss:hover {
+  background-position: -27px -27px;
+}
+.net-social .fb {
+  background-position: -55px 0;
+}
+.net-social .fb:hover {
+  background-position: -55px -27px;
+}
+.net-social .tw {
+  background-position: -81px 0;
+}
+.net-social .tw:hover {
+  background-position: -81px -27px;
+}
