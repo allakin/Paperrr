@@ -185,6 +185,69 @@ li a:hover {
   right: 3px;
 }
 
+.border-up {
+  background: url("../img/border-up.png") no-repeat top center;
+  height: 14px;
+  display: block;
+}
+
+.border-down {
+  background: url("../img/border-down.png") no-repeat top center;
+  height: 14px;
+  display: block;
+  margin-top: 40px;
+}
+
+.bg-post {
+  background: url("../img/bg-post.png");
+  height: 270px;
+  display: block;
+}
+.bg-post h1 {
+  font-size: 30px;
+  font-family: "Cabin Sketch", cursive;
+  margin-left: 20px;
+  background: #eadeca;
+}
+.bg-post h2 {
+  font-size: 15px;
+  font-family: "Cabin Sketch", cursive;
+  margin-left: 20px;
+  margin-top: 0px;
+}
+.bg-post p {
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  color: #000;
+  margin: 5px 10px 0px 20px;
+}
+.bg-post p b {
+  text-transform: uppercase;
+}
+
+.button-post {
+  background: url("../img/bg-button-post.png") no-repeat top right;
+  height: 32px;
+  margin-top: 18px;
+}
+.button-post:hover {
+  background: url("../img/bg-button-post-hover.png") no-repeat top right;
+}
+.button-post a:hover {
+  text-decoration: none;
+}
+.button-post p {
+  font-size: 18px;
+  font-family: "Cabin Sketch", cursive;
+  text-align: right;
+  padding: 4px 0px;
+}
+.button-post li {
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  margin-top: 10px;
+}
+
 /**
  * BxSlider v4.1.2 - Fully loaded, responsive content slider
  * http://bxslider.com

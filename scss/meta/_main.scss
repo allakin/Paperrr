@@ -165,3 +165,64 @@ li{
     right: 3px;
   }
 }
+.border-up{
+  background: url("../img/border-up.png")no-repeat top center;
+  height: 14px;
+  display: block;
+}
+.border-down{
+  background: url("../img/border-down.png")no-repeat top center;
+  height: 14px;
+  display: block;
+  margin-top: 40px;
+}
+.bg-post{
+  background: url("../img/bg-post.png");
+  height: 270px;
+  display: block;
+  h1{
+    font-size: 30px;
+    font-family: $cabin;
+    margin-left: 20px;
+    background: #eadeca;
+  }
+  h2{
+    font-size: 15px;
+    font-family: $cabin;
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+  p{
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color: $black;
+    margin: 5px 10px 0px 20px;
+    b{
+      text-transform: uppercase;
+    }
+  }
+}
+.button-post{
+  background: url("../img/bg-button-post.png")no-repeat top right;
+  height: 32px;
+  margin-top: 18px;
+  &:hover{
+    background: url("../img/bg-button-post-hover.png")no-repeat top right;
+  }
+  a{
+   &:hover{
+     text-decoration: none;
+   }
+  }
+  p{
+    font-size: 18px;
+    font-family: $cabin;
+    text-align: right;
+    padding: 4px 0px;
+  }
+  li{
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+  }
+}
