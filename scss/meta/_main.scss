@@ -1,23 +1,27 @@
-header{
-  background: url("../img/bg-header.png")no-repeat top center;
+header {
+  background: url("../img/bg-header.png") no-repeat top center;
   width: 100%;
   height: 153px;
 }
-.col-xs-6{
+
+.col-xs-6 {
   padding: 0px;
 }
-.forms{
+
+.forms {
   position: relative;
 }
-.logo-link{
-  a{
+
+.logo-link {
+  a {
     width: 237px;
     height: 93px;
     margin-top: 11px;
     display: block;
   }
 }
-input{
+
+input {
   width: 189px;
   height: 27px;
   margin-bottom: 10px;
@@ -27,98 +31,105 @@ input{
   font-family: sans-serif;
   margin-top: 45px;
   margin-left: 283px;
-  @include border-radius (4px);
+  @include border-radius(4px);
 }
+
 button {
   background: rgba(194, 170, 124, 0.8);
   border: 0px;
-  @include border-radius (0px 4px 4px 0px);
+  @include border-radius(0px 4px 4px 0px);
   height: 29px;
   width: 32px;
   position: absolute;
   margin-top: 44px;
   margin-left: -32px;
-  &:hover .icon-find{
+  &:hover .icon-find {
     background-position: 0 -16px;
   }
-  .icon-find{
-    background: url("../img/sprite/sp-icon-find.png")no-repeat top center;
+  .icon-find {
+    background: url("../img/sprite/sp-icon-find.png") no-repeat top center;
     width: 16px;
     height: 16px;
     display: block;
   }
 }
-.menu-wrapp{
-   margin-left: 0px;
-   padding: 0px;
- }
-li{
+
+.menu-wrapp {
+  margin-left: 0px;
+  padding: 0px;
+}
+
+li {
   float: left;
   list-style-type: none;
   margin-right: 30px;
   left: 0px;
   margin-top: 7px;
-  &:last-child{
+  &:last-child {
     margin-right: 0px;
   }
-  a{
+  a {
     font-size: 24px;
     font-family: $cabin;
     color: $black;
-    &:hover{
+    &:hover {
       text-decoration: none;
       color: $white;
     }
   }
 }
-.social-wrapp{
+
+.social-wrapp {
   padding: 0px;
   margin-left: 80px;
 }
-.net-social{
+
+.net-social {
   margin-right: 6px;
-  &:last-child{
+  &:last-child {
     margin-right: 0;
   }
   .mail,
   .rss,
   .fb,
-  .tw{
-    background: url("../img/sprite/sp-social-networks.png")no-repeat;
+  .tw {
+    background: url("../img/sprite/sp-social-networks.png") no-repeat;
     width: 28px;
     height: 27px;
     display: block;
   }
-  .mail{
-    &:hover{
+  .mail {
+    &:hover {
       background-position: 0 -27px;
     }
   }
-  .rss{
+  .rss {
     background-position: -27px 0;
-    &:hover{
+    &:hover {
       background-position: -27px -27px;
     }
   }
-  .fb{
+  .fb {
     background-position: -55px 0;
-    &:hover{
+    &:hover {
       background-position: -55px -27px;
     }
   }
-  .tw{
+  .tw {
     background-position: -81px 0;
-    &:hover{
+    &:hover {
       background-position: -81px -27px;
     }
   }
 }
-.slider-home{
-  background: url("../img/bg-slider.png")no-repeat top center;
+
+.slider-home {
+  background: url("../img/bg-slider.png") no-repeat top center;
   width: 100%;
   height: 373px;
 }
-.bx-slider-wrapper{
+
+.bx-slider-wrapper {
   position: relative;
   margin-top: 65px;
   .bx-wrapper {
@@ -142,13 +153,13 @@ li{
   }
   .bx-next {
     background-position: -21px 0px;
-    &:hover{
+    &:hover {
       background-position: -21px -27px;
     }
   }
   .bx-prev {
     background-position: 0px 0px;
-    &:hover{
+    &:hover {
       background-position: -0px -27px;
     }
   }
@@ -165,64 +176,86 @@ li{
     right: 3px;
   }
 }
-.border-up{
-  background: url("../img/border-up.png")no-repeat top center;
+
+.border-up {
+  background: url("../img/border-up.png") no-repeat top center;
   height: 14px;
   display: block;
 }
-.border-down{
-  background: url("../img/border-down.png")no-repeat top center;
+
+.border-down {
+  background: url("../img/border-down.png") no-repeat top center;
   height: 14px;
   display: block;
   margin-top: 40px;
 }
-.bg-post{
+
+.bg-post {
   background: url("../img/bg-post.png");
   height: 270px;
   display: block;
-  h1{
+  h1 {
     font-size: 30px;
     font-family: $cabin;
     margin-left: 20px;
     background: #eadeca;
   }
-  h2{
+  h2 {
     font-size: 15px;
     font-family: $cabin;
     margin-left: 20px;
     margin-top: 0px;
   }
-  p{
+  p {
     font-size: 12px;
     font-family: Arial, sans-serif;
     color: $black;
     margin: 5px 10px 0px 20px;
-    b{
+    b {
       text-transform: uppercase;
     }
   }
 }
-.button-post{
-  background: url("../img/bg-button-post.png")no-repeat top right;
+
+.button-post {
+  background: url("../img/bg-button-post.png") no-repeat top right;
   height: 32px;
   margin-top: 18px;
-  &:hover{
-    background: url("../img/bg-button-post-hover.png")no-repeat top right;
+  &:hover {
+    background: url("../img/bg-button-post-hover.png") no-repeat top right;
   }
-  a{
-   &:hover{
-     text-decoration: none;
-   }
+  a {
+    &:hover {
+      text-decoration: none;
+    }
   }
-  p{
+  p {
     font-size: 18px;
     font-family: $cabin;
     text-align: right;
     padding: 4px 0px;
   }
-  li{
+  li {
     font-size: 12px;
     font-family: Arial, sans-serif;
     margin-top: 10px;
+  }
+}
+
+.bg-post-wrapp {
+  background: url("../img/bg-twitter-post.jpg");
+  height: 89px;
+  margin-top: 24px;
+  .post-text {
+    padding: 14px 0px 14px 20px;
+    .logo-twitter{
+      background: url("../img/logo-twitter.png")no-repeat;
+      height: 60px;
+    }
+    p {
+      font-size: 18px;
+      font-family: $cabin;
+      color: $white;
+    }
   }
 }

@@ -248,6 +248,24 @@ li a:hover {
   margin-top: 10px;
 }
 
+.bg-post-wrapp {
+  background: url("../img/bg-twitter-post.jpg");
+  height: 89px;
+  margin-top: 24px;
+}
+.bg-post-wrapp .post-text {
+  padding: 14px 0px 14px 20px;
+}
+.bg-post-wrapp .post-text .logo-twitter {
+  background: url("../img/logo-twitter.png") no-repeat;
+  height: 60px;
+}
+.bg-post-wrapp .post-text p {
+  font-size: 18px;
+  font-family: "Cabin Sketch", cursive;
+  color: #fff;
+}
+
 /**
  * BxSlider v4.1.2 - Fully loaded, responsive content slider
  * http://bxslider.com
