@@ -248,8 +248,8 @@ li {
   margin-top: 24px;
   .post-text {
     padding: 14px 0px 14px 20px;
-    .logo-twitter{
-      background: url("../img/logo-twitter.png")no-repeat;
+    .logo-twitter {
+      background: url("../img/logo-twitter.png") no-repeat;
       height: 60px;
     }
     p {
@@ -257,5 +257,48 @@ li {
       font-family: $cabin;
       color: $white;
     }
+  }
+}
+
+.futter {
+  background: url("../img/bg-futter.jpg") top center no-repeat;
+  margin-top: 35px;
+  height: 263px;
+  p {
+    font-size: 24px;
+    font-family: $cabin;
+    color: $white;
+    margin-top: 35px;
+  }
+  .col-xs-2{
+    width: 14.666667%;
+  }
+  .categories-first,
+  .categories-second {
+    padding-left: 0px;
+    a{
+      font-size: 12px;
+      font-family: Arial, sans-serif;
+      color: $white;
+    }
+  }
+  .newsfeed-mouth{
+    padding-left: 0px;
+    a{
+      font-size: 12px;
+      font-family: Arial, sans-serif;
+      color: $white;
+    }
+  }
+  .text-touch{
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color: $white;
+    padding-left: 0px;
+    margin-top: 4px;
+  }
+  .map{
+    margin-left: 53px;
+    margin-top: -6px;
   }
 }

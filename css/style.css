@@ -266,6 +266,50 @@ li a:hover {
   color: #fff;
 }
 
+.futter {
+  background: url("../img/bg-futter.jpg") top center no-repeat;
+  margin-top: 35px;
+  height: 263px;
+}
+.futter p {
+  font-size: 24px;
+  font-family: "Cabin Sketch", cursive;
+  color: #fff;
+  margin-top: 35px;
+}
+.futter .col-xs-2 {
+  width: 14.666667%;
+}
+.futter .categories-first,
+.futter .categories-second {
+  padding-left: 0px;
+}
+.futter .categories-first a,
+.futter .categories-second a {
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+.futter .newsfeed-mouth {
+  padding-left: 0px;
+}
+.futter .newsfeed-mouth a {
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+.futter .text-touch {
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  padding-left: 0px;
+  margin-top: 4px;
+}
+.futter .map {
+  margin-left: 53px;
+  margin-top: -6px;
+}
+
 /**
  * BxSlider v4.1.2 - Fully loaded, responsive content slider
  * http://bxslider.com
